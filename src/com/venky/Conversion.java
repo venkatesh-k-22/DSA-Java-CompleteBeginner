@@ -17,13 +17,18 @@ public class Conversion {
 //        System.out.println(a);
 
         // lets check for byte byte size is 256
-        byte a = 40;
-        byte b = 50;
-        byte c = 100;
-        //while performing operation automatically java converts from byte to int
-        //a and  b is byte first it will get 2000 but the operation will take into int
-        int res = (a*b)/c; // 20
-        System.out.println(res);
+//        byte a = 40;
+//        byte b = 50;
+//        byte c = 100;
+//        //while performing operation automatically java converts from byte to int
+//        //a and  b is byte first it will get 2000 but the operation will take into int
+//        int res = (a*b)/c; // 20
+//        System.out.println(res);
+        //Java supports UNICODE
+        int cha = 'a';
+        System.out.println(cha);// it will take the ADCII value of a i.e, 97
+        // you can add any language
+        System.out.println("ನಮಸ್ಕಾರ");
 
 
     }
