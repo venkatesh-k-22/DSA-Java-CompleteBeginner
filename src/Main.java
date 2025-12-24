@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 // public is a access modifier, we can access this class anywhere and Main class name should always be public.
@@ -12,5 +14,12 @@ public class Main {
         //PrintStream is a final static class out is a variable for PrintStream class
         //println is a method which is available is PrintStream class
         System.out.println("Hello world");
+        //Scanner is a class from java.util package, it is a public final class
+        //in is a InputStream variable, where you enter a value from keyboard
+        Scanner input = new Scanner(System.in);
+        //Scanner contains a lot of methods.
+        //if you give any integer value it will display that value on the terminal
+        System.out.println(input.nextInt());
+
     }
 }
