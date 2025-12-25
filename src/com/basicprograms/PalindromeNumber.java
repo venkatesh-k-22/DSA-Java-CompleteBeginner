@@ -11,6 +11,8 @@ public class PalindromeNumber {
         //Ex: 121, 252, 686,... etc
         String res = palindrome(n);
         System.out.println(res);
+        //Time Complexity : O(log_{10} n)
+        // Space Complexity : O(1)
     }
 
     public static String palindrome(int n) {
