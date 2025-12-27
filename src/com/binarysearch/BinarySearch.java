@@ -3,7 +3,7 @@ package com.binarysearch;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {2, 4, 6, 9, 11, 12, 14, 20, 36, 48};
-        int target = 36;
+        int target = 48;
         int res = binarySearchAlgo(arr, target);
         System.out.println(res);
     }
