@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class FirstAndLastIndex {
     public static void main(String[] args) {
         int[] nums = {5, 7, 7, 7, 7, 8, 8, 10};
-        int target = 10;
+        int target = 8;
         int[] res = searchRange(nums, target);
         System.out.println(Arrays.toString(res));
     }
@@ -15,9 +15,6 @@ public class FirstAndLastIndex {
         int[] res = {-1, -1};
 
         res[0] = searchInRange(nums, target, true);
-        if(res[0] == -1){
-            return res;
-        }
         res[1] = searchInRange(nums, target, false);
         return res;
     }
