@@ -7,7 +7,7 @@ public class PeakIndexMountainArray {
         System.out.println(ans);
     }
     public static int peakIndexInMountainArray(int[] arr) {
-        int start = 0;
+       int start = 0;
         int end = arr.length-1;
         //if start and end are equal, this loop will break
         while(start != end){
@@ -15,7 +15,7 @@ public class PeakIndexMountainArray {
             if(arr[mid] > arr[mid+1]){
                 // You are in the decreasing part of the array
                 // This mid could be the peak, but look left to be sure
-                end = mid;
+                 end = mid;
             }else{
                 // You are in the increasing part of the array
                 // mid + 1 is greater than mid, so mid is not the peak
